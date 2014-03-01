@@ -1,10 +1,11 @@
 <html>
  <head>
-  <title>PHP Test</title>
+  <title>EMAIL GAME</title>
  </head>
  <body>
  
  <?php
+   require 'vendor/autoload.php'
    include 'sendgrid-php/SendGrid_loader.php';
    
    //INITIALIZE SENDGRID
@@ -25,6 +26,8 @@
    $sendgrid->
       smtp->
          send($mail);
+         
+   echo 'PAGE'
    
    
 ?>
