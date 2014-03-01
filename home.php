@@ -6,7 +6,7 @@
  
  <?php
    require 'vendor/autoload.php'
-   include 'sendgrid-php/SendGrid_loader.php';
+   include 'sendgrid-php/lib/SendGrid.php';
    
    //INITIALIZE SENDGRID
    $sendgrid = new SendGrid('jrdbnntt', 'hackFSU');
