@@ -1,4 +1,10 @@
-<?php
+<html>
+ <head>
+  <title>PHP Test</title>
+ </head>
+ <body>
+ 
+ <?php
    include 'sendgrid-php/SendGrid_loader.php';
    
    //INITIALIZE SENDGRID
@@ -22,3 +28,8 @@
    
    
 ?>
+ 
+ 
+
+ </body>
+</html>
